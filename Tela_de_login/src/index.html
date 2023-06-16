@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body class="bg-cyan-400 min-h-screen flex justify-center items-center">
+
+    <form class="bg-gray-100 p-10 rounded shadow shadow-gray-100">
+      <h1 class="text-center mb-3 text-cyan-400 animate-bounce">Tela de login</h1>
+      <div class="bg-white p-1 rounded hover:text-white hover:bg-cyan-400 cursor-pointer duration-700 cursor-pointer">
+        <label for="name" class="text-cyan-400 hover:text-white text-base block">Name</label>
+        <input class="p-3 rounded w-64 m-3 outiline-none" type="text" name="name" id="name" placeholder="Input your name" required>
+      </div>
+      <div class="bg-white p-1 rounded hover:text-white hover:bg-cyan-400 cursor-pointer duration-700 mt-5 cursor-pointer">
+        <label for="email" class="text-cyan-400 hover:text-white text-base block">Email</label>
+        <input class="p-3 rounded w-64 m-3 border border-transparent" type="text" name="email" id="email" placeholder="Input your email" required>
+      </div>
+      <div class="bg-cyan-400 rounded hover:bg-white duration-700 cursor-pointer p-3 flex justify-center items-center w-72 mt-5">
+        <input class="bg-white hover:bg-cyan-400 w-60 h-8 hover:text-white text-cyan-400 duration-700 rounded cursor-pointer border border-cyan-400 " type="submit" value="Submit">
+      </div>
+      <a href="#" class="text-base text-cyan-400 text-center pt-5">Esqueci minha email</a>
+    </form>
+  </body>
+</html>

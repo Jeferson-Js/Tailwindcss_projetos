@@ -1,0 +1,17 @@
+{
+    "name": "tela_de_login",
+    "version": 2,
+    "public": true,
+    "build": [
+        {
+            "src": "index.html",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "./index.html"
+        }
+    ]
+}
