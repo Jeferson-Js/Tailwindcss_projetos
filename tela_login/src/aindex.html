@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-sca]]]]]le=1.0">
+    <title>Tela de login</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="shortcut icon" href="./img/logo_tailwindcss.png" type="image/x-icon">
+</head>
+<body class="bg-cyan-400">
+
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+        <div class="bg-white lg:flex lg:min-h-screen lg:items-center p-8 sm:p-12">
+            <div class="flex-grow backdrop-blur-2xl shadow-2xl p-6 rounded-md">
+                <h1 class="capitalize text-center text-cyan-400 font-semibold text-2xl animate-pulse">welcome</h1>
+                <p class="text-center text-base text-gray-600 mt-3">Make your check-in</p>
+            </div>
+        </div>
+        <div class="lg:min-h-screen lg:flex lg:items-center p-5 lg:p-24 xl:p-48">
+            <div class="flex-grow bg-white rounded-md p-12 shadow-2xl">
+                <div class="sm:flex sm:items-center">
+                    <img src="./img/login.gif" alt="login" class="flex-shrink-0 mx-auto sm:mx-0 h-24 rounded-full">
+                    <div class="sm:ml-4 sm:text-left text-center">
+                        <p class="text-center text-xl font-semibold sm:text-2xl text-cyan-400 animate-bounce">Oliveira.js</p>
+                        <p class="text-sm mt-1 mb-1 px-1 text-gray-400">Technical suport</p>
+                    </div>
+                </div>
+                <form class="w-full flex-col mt-2">
+                    <input class=" flex-1 w-full py-2 mx-0 px-2 rounded-md mb-4 text-cyan-400 outline-none bg-gray-100 focus:bg-white" type="email" name="email" id="email" autocomplete="off" placeholder="Input your email" required>
+                    <button type="submit" class="text-white font-semibold px-20 py-2 bg-cyan-400 hover:bg-cyan-300 duration-700 outline-none rounded-full flex-shrink-0 ml-2 flex items-center">Submit</button>
+                </form>
+                <a href="#" class="block no-underline text-center mt-4 animate-shake-x text-cyan-400 text-base">I forget my email</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="text-center text-base text-white animate-pulse">All rights reserved Oliveira.js &copy; 2023</p>
+    </footer>
+</body>
+</html>

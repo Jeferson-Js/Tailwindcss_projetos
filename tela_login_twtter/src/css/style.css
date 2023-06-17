@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .btn_submit {
+        @apply flex-shrink-0 text-white bg-cyan-400 hover:bg-cyan-300 duration-700 ml-2 px-4 rounded outline-none font-semibold;
+    }
+}
