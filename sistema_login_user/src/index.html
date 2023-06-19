@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalando o tailwindcss</title>
+    <link rel="stylesheet" href="./css/output.css">
+</head>
+<body class="bg-cyan-400">
+
+<div class="grid grid-cols-1 lg:grid-cols-2">
+<div class="lg:min-h-screen bg-white lg:flex lg:items-center p-8 sm:p-12">
+    <div class="flex-grow">
+        <h1 class="text-center text-2xl text-cyan-400 sm:animate-bounce">Sistema de login</h1>
+        <p class="text-center sm:text-base text-gray-300">Desenvolvedor FullStack</p>
+    </div>
+</div>
+
+<div class="lg:min-h-screen lg:flex lg:items-center p-12 lg:p-24 xl:p-48">
+    <div class="flex-grow bg-white rounded-md  border border-gray-500 shadow-xl p-8 outline-none">
+        <div class="sm:flex sm:items-center">
+            <img src="./img/login.gif" alt="login" class="sm:flex-shrink-0 mx-auto sm:mx-0 rounded-full h-24">
+            <div class=" sm:text-left text-center">
+                <h2 class="text-xl text-cyan-400 font-semibold">Login</h2>
+                <p class="text-sm mt-2 text-gray-300">Suporte técnico</p>
+            </div>
+        </div>
+        <form action="#" class="flex w-full mt-4">
+            <input class="flex-1 py-2 px-4 items-center w-full rounded outline-none bg-gray-100 focus:bg-white" type="email" name="email" placeholder="your email"required>
+            <button type="submit" class="flex-shrink-0 p-1 bg-cyan-400 hover:bg-cyan-400 text-white rounded font-semibold  ml-2.5 px-2 duration-700">Submit</button>
+        </form>
+        <div class="mt-3 text-center">
+            <a href="#" class="text-cyan-400 text-center no-underline animate-pulse ml-1">I forget my email</a>
+        </div>
+    </div>
+</div>
+</div>
+    
+</body>
+</html>

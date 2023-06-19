@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body class="bg-purple-500">
+    <div class="grid grid-cols-1 lg:grid-cols-2">
+      <div class="bg-white lg:min-h-screen lg:flex lg:items-center p-8 sm:p-12">
+        <div class="flex-grow">
+          <h1
+            class="text-2xl text-purple-500 font-semibold text-center sm:text-5xl mb-3 lg:animate-bounce md:animate-pulse"
+          >
+            Oliveira.js
+          </h1>
+          <p class="text-base text-gray-400 text-center">
+            Suporte técnico & analise de sistemas.
+          </p>
+          <div class="mt-4">
+            <button
+              class="flex m-auto bg-purple-500 hover:bg-purple-400 duration-700 text-white font-semibold py-2 px-10 rounded shadow-xl"
+            ><a href="./portifolio.html">Portfolio</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="lg:min-h-screen lg:flex lg:items-center p-12 lg:24 xl:48">
+        <div
+          class="flex-grow bg-white shadow-xl border border-gray-300 rounded-md p-8 outline-none"
+        >
+          <div class="sm:flex sm:items-center">
+            <img
+              src="./img/internet.gif"
+              alt="globo-tech"
+              class="sm:flex-shrink-0 mx-auto sm:mx-0 h-24 rounded-full"
+            />
+            <div class="sm:ml-4 sm:text-left text-center">
+              <h2 class="text-xl font-semibold text-purple-500 mb-1">
+                Jeferson Santos Oliveira
+              </h2>
+              <p class="text-base text-gray-400">Desenvolvedor FullStack</p>
+              <div class="mt-4 lg:flex lg:items-center">
+                <form action="#" class="lg:flex lg:items-center">
+                  <input
+                    class="outline-none text-purple-500 w-full pl-2 lg:flex lg:items-center rounded-md py-1 mb-2"
+                    type="email"
+                    autocomplete="off"
+                    name="email"
+                    id="email"
+                    placeholder="Input your email"
+                    required
+                  />
+                  <button
+                    type="submit"
+                    class="lg:flex m-auto bg-purple-500 hover:bg-purple-400 duration-700 text-white font-semibold py-2 px-14 mt-1 rounded shadow-xl capitalize ml-2"
+                  >
+                    submit
+                  </button>
+                </form>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+  </body>
+</html>
