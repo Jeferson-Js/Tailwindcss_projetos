@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="shortcut icon" href="./img/wind.png" type="image/x-icon">
+    <script src="./js/animation.js" defer></script>
+</head>
+<body class="bg-cyan-200">
+    <button class="bg-green-400 hover:bg-green-300 duration-700 text-base text-white capitalize font-semibold shadow-md rounded-md py-1 mt-3 ml-3 flex-grow outline-none w-1/5" id="show">show modal</button>
+    <div class="min-h-screen w-full flex justify-center items-center fixed bg-black bg-opacity-50 left-0 top-0 hidden duration-700" id="modal">
+        <!-- Modal -->
+        <div class="bg-white rounded-md shadow-lg w-1/4 md:flex-shrink-0 md:flex-grow">
+            <!-- Header modal -->
+            <header class="border-b py-2 px-4 flex justify-between items-center">
+                <h3 class="lg:text-xl text-sm">Modal title</h3>
+                <button class="bg-red-400 hover:bg-red-300 duration-700 text-white w-6 h-6 rounded outiline-none" id="iconClose" >&cross;</button>
+            </header>
+            <main>
+                <section class="p-3 border-b"> 
+                    <p class="text-base text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic dignissimos labore non dolorem quisquam aut esse nobis expedita nulla tempore?</p>
+                </section>
+                <div class="flex justify-end items-end w-100 border-b p-3">
+                    <button class="bg-green-400 flex-grow m-1 hover:bg-green-300 duration-700 text-base text-white capitalize font-semibold shadow-md rounded-md w-1 py-1 outline-none" id="open">ok</button>
+                    <button class="bg-red-400 hover:bg-red-300 duration-700 text-base text-white capitalize font-semibold shadow-md rounded-md py-1 m-1 flex-grow outline-none w-1" id="close">Cancel</button>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+</body>
+</html>

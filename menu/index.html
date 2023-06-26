@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu mobile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./js/animation.js" defer></script>
+</head>
+<body class="bg-cyan-400">
+
+    <header class="flex">
+        <nav class="flex justify-between items-center p-3 w-full h-16 bg-white shadow-dark-200 fixed">
+            <a href="#">
+                <img src="./img/wind.png" alt="logo" class="h-16 flex-shrink-0">
+            </a>
+            <span><ion-icon name="menu" class="text-cyan-400 text-3xl cursor-pointer lg:hidden" onclick="menu(this)"></ion-icon></span>
+            <!-- menu desktop -->
+            <ul class="hidden lg:flex items-center gap-3 capitalize">
+                <li class="text-base text-cyan-400 hover:text-gray-950 duration-500"><a href="#">home</a></li>
+                <li class="text-base text-cyan-400 hover:text-gray-950 duration-500"><a href="#">about</a></li>
+                <li class="text-base text-cyan-400 hover:text-gray-950 duration-500"><a href="#">gallery</a></li>
+                <li class="text-base text-cyan-400 hover:text-gray-950 duration-500"><a href="#">contact</a></li>
+            </ul>
+            <!-- menu mobile -->
+            <ul class="hidden absolute top-[400px] left-0 bg-white w-full p-5 capitalize opacity-0 md:opacity-100 transition-all ease-in duration-500 " id="list">
+                <li class="text-base text-cyan-400 hover:text-gray-950 duration-500 mb-10"><a href="#">home</a></li>
+                <li class="text-base text-cyan-400 hover:text-gray-950 duration-500 mb-10"><a href="#">about</a></li>
+                <li class="text-base text-cyan-400 hover:text-gray-950 duration-500 mb-10"><a href="#">gallery</a></li>
+                <li class="text-base text-cyan-400 hover:text-gray-950 duration-500 mb-10"><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>
